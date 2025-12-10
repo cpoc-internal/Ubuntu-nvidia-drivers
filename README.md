@@ -9,12 +9,19 @@ git clone https://github.com/cpoc-internal/Ubuntu-Nvidia-drivers.git
 ```
 cd Ubuntu-Nvidia-drivers
 ```
-3. Install Nvidia-drivers ubuntu 2204, the installation will last about 10 minutes
+3. ROOT modeInstall Nvidia-drivers ubuntu 2204, the installation will last about 10 minutes
 ```
 git clone https://github.com/cpoc-internal/Ubuntu-Nvidia-drivers.git
 chmod +x /root/Ubuntu-nvidia-drivers/install-nvidia-drivers-2204.sh
 sudo -u root /root/Ubuntu-nvidia-drivers/install-nvidia-drivers-2204.sh
 
+```
+3.1 Non ROOT
+```
+git clone https://github.com/cpoc-internal/Ubuntu-Nvidia-drivers.git
+cd Ubuntu-Nvidia-drivers
+chmod +x install-nvidia-drivers-2204.sh
+ ./install-nvidia-drivers-2204.sh
 ```
 4. Install Nvidia-drivers ubuntu 2404, the installation will last about 10 minutes
 ```
