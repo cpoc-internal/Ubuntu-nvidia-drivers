@@ -22,7 +22,7 @@ network:
                   via: 192.168.200.1
 
         ens202np0:
-             mtu: 9000
+            mtu: 9000
             addresses:
             - 192.168.200.22/24
             nameservers:
@@ -33,7 +33,7 @@ network:
                   via: 192.168.200.1
 
         ens203np0:
-             mtu: 9000
+            mtu: 9000
             addresses:
             - 192.168.200.23/24
             nameservers:
@@ -44,7 +44,7 @@ network:
                   via: 192.168.200.1
 
         ens204np0:
-             mtu: 9000
+            mtu: 9000
             addresses:
             - 192.168.200.24/24
             nameservers:
@@ -55,7 +55,7 @@ network:
                   via: 192.168.200.1
 
         ens205np0:
-             mtu: 9000
+            mtu: 9000
             addresses:
             - 192.168.200.25/24
             nameservers:
@@ -66,7 +66,7 @@ network:
                   via: 192.168.200.1
         
         ens206np0:
-             mtu: 9000
+            mtu: 9000
             addresses:
             - 192.168.200.26/24
             nameservers:
@@ -77,7 +77,7 @@ network:
                   via: 192.168.200.1
 
         ens207np0:
-             mtu: 9000
+            mtu: 9000
             addresses:
             - 192.168.200.27/24
             nameservers:
@@ -88,7 +88,7 @@ network:
                   via: 192.168.200.1
 
         ens208np0:
-             mtu: 9000
+            mtu: 9000
             addresses:
             - 192.168.200.28/24
             nameservers:
