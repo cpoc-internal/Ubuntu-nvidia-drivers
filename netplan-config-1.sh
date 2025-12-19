@@ -97,6 +97,28 @@ network:
             routes:
                 - to: 192.168.200.0/24
                   via: 192.168.200.1
+        ens211f0np0:
+            mtu: 9000
+            addresses:
+            - 198.18.135.10/18
+            nameservers:
+                addresses:
+                - 198.18.133.1
+                - 198.18.128.1
+            routes:
+                - to: 198.18.128.0/18
+                  via: 198.18.128.1
+        ens211f1np1:
+            mtu: 9000
+            addresses:
+            - 198.18.135.11/18
+            nameservers:
+                addresses:
+                - 198.18.133.1
+                - 198.18.128.1
+            routes:
+                - to: 198.18.128.0/18
+                  via: 198.18.128.1
 
 EOF
 
