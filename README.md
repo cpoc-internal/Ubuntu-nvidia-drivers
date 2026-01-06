@@ -47,6 +47,7 @@ cd Ubuntu-Nvidia-drivers
 
 6. Create new netplan config for UCS C885 H100 server persistent config 
 ```
+ cd Ubuntu-Nvidia-drivers
  chmod +x netplan-config-H100.sh
  ./netplan-config-H100.sh
 ```
@@ -54,6 +55,7 @@ cd Ubuntu-Nvidia-drivers
 
 Server 1
 ```
+ cd Ubuntu-Nvidia-drivers
  chmod +x netplan-config-1.sh
  ./netplan-config-1.sh
 ```
