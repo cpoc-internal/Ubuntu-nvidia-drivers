@@ -62,6 +62,7 @@ Server 1
 
 Server 2
 ```
+ cd Ubuntu-Nvidia-drivers
  chmod +x netplan-config-2.sh
  ./netplan-config-2.sh
 ```
