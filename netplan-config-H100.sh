@@ -11,6 +11,7 @@ network:
     version: 2
     ethernets:
         ens201f0np0:
+            mtu: 9000
             addresses:
             - 192.168.200.2/24
             nameservers:
@@ -21,6 +22,7 @@ network:
                   via: 192.168.200.1
 
         ens202f0np0:
+            mtu: 9000
             addresses:
             - 192.168.200.3/24
             nameservers:
@@ -32,6 +34,7 @@ network:
 
 
         ens203f0np0:
+            mtu: 9000
             addresses:
             - 192.168.200.4/24
             nameservers:
@@ -43,6 +46,7 @@ network:
 
 
         ens204f0np0:
+            mtu: 9000
             addresses:
             - 192.168.200.5/24
             nameservers:
@@ -53,6 +57,7 @@ network:
                   via: 192.168.200.1
 
         ens205f0np0:
+            mtu: 9000
             addresses:
             - 192.168.200.6/24
             nameservers:
@@ -63,6 +68,7 @@ network:
                   via: 192.168.200.1
 
         ens206f0np0:
+            mtu: 9000
             addresses:
             - 192.168.200.7/24
             nameservers:
@@ -74,6 +80,7 @@ network:
 
 
         ens207f0np0:
+            mtu: 9000
             addresses:
             - 192.168.200.8/24
             nameservers:
@@ -85,6 +92,7 @@ network:
 
 
         ens208f0np0:
+            mtu: 9000
             addresses:
             - 192.168.200.9/24
             nameservers:
