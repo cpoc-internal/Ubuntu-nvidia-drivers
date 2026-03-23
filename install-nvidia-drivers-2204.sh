@@ -48,6 +48,8 @@ sudo systemctl enable nvidia-fabricmanager.service
 sudo systemctl start nvidia-fabricmanager.service
 #pip install --upgrade vllm
 sudo apt install python3-pip -y
+sudo pip install --upgrade pip -y
+
 
 sudo apt-get install -y cuda-demo-suite-12-9
 /usr/local/cuda-12.9/extras/demo_suite/bandwidthTest
