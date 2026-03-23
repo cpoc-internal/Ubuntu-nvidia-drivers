@@ -53,6 +53,10 @@ sudo pip install --upgrade pip -y
 
 sudo apt-get install -y cuda-demo-suite-12-9
 /usr/local/cuda-12.9/extras/demo_suite/bandwidthTest
+
+sudo apt install nvidia-cuda-toolkit -y
+nvcc --version
+
 # pip install accelerate
 # pip install tensorflow
 # pip install torch
