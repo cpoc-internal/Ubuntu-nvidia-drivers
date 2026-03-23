@@ -49,6 +49,8 @@ sudo systemctl start nvidia-fabricmanager.service
 #pip install --upgrade vllm
 sudo apt install python3-pip -y
 
+sudo apt-get install -y cuda-demo-suite-12-9
+/usr/local/cuda-12.9/extras/demo_suite/bandwidthTest
 # pip install accelerate
 # pip install tensorflow
 # pip install torch
