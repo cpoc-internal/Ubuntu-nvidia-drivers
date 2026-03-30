@@ -32,8 +32,7 @@ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt-get update
 
-echo "Installing the NVIDIA toolkit..."
-sudo apt-get install -y cuda-toolkit-12-9 -y
+
 
 echo "Installing the NVIDIA Driver..."
 sudo apt-get install -y cuda-drivers-575
@@ -50,6 +49,8 @@ sudo systemctl start nvidia-fabricmanager.service
 sudo apt install python3-pip -y
 sudo pip install --upgrade pip 
 
+echo "Installing the NVIDIA toolkit..."
+sudo apt-get install -y cuda-toolkit-12-9 -y
 
 #sudo apt install nvidia-cuda-toolkit -y
 export CUDA_HOME=/usr/local/cuda-12.9
