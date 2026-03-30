@@ -51,11 +51,11 @@ sudo apt install python3-pip -y
 sudo pip install --upgrade pip -y
 
 
-# sudo apt install nvidia-cuda-toolkit -y
-# nvcc --version
+sudo apt install nvidia-cuda-toolkit -y
+nvcc --version
 
-# sudo apt-get install -y cuda-demo-suite-12-9
-# /usr/local/cuda-12.9/extras/demo_suite/bandwidthTest
+sudo apt-get install -y cuda-demo-suite-12-9
+/usr/local/cuda-12.9/extras/demo_suite/bandwidthTest
 
 # pip install accelerate
 # pip install tensorflow
