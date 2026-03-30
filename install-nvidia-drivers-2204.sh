@@ -33,7 +33,7 @@ sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt-get update
 
 echo "Installing the NVIDIA toolkit..."
-sudo apt-get install -y cuda-toolkit-12-9
+sudo apt-get install -y cuda-toolkit-12-9 -y
 
 echo "Installing the NVIDIA Driver..."
 sudo apt-get install -y cuda-drivers-575
@@ -51,8 +51,7 @@ sudo apt install python3-pip -y
 sudo pip install --upgrade pip 
 
 
-sudo apt install nvidia-cuda-toolkit -y
-sudo apt-get install -y cuda-toolkit-12-9 -y
+#sudo apt install nvidia-cuda-toolkit -y
 export CUDA_HOME=/usr/local/cuda-12.9
 export PATH=$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
