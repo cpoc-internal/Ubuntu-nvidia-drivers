@@ -47,8 +47,8 @@ sudo apt install -y nvidia-fabricmanager-575
 sudo systemctl enable nvidia-fabricmanager.service
 sudo systemctl start nvidia-fabricmanager.service
 #pip install --upgrade vllm
-sudo apt install python3-pip -y
-sudo pip install --upgrade pip -y
+sudo apt install python3-pip 
+sudo pip install --upgrade pip 
 
 
 sudo apt install nvidia-cuda-toolkit -y
