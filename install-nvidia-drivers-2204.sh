@@ -52,7 +52,7 @@ sudo pip install --upgrade pip
 echo "Installing the NVIDIA toolkit..."
 sudo apt-get install -y cuda-toolkit-12-9 -y
 
-#sudo apt install nvidia-cuda-toolkit -y
+sudo apt install nvidia-cuda-toolkit -y
 export CUDA_HOME=/usr/local/cuda-12.9
 export PATH=$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
