@@ -48,6 +48,11 @@ sudo systemctl start nvidia-fabricmanager.service
 #pip install --upgrade vllm
 sudo apt install python3-pip -y
 sudo pip install --upgrade pip 
+sudo apt update
+sudo apt install lldpd -y
+sudo systemctl start lldpd
+sudo systemctl enable lldpd
+sudo systemctl status lldpd
 
 echo "Installing the NVIDIA toolkit..."
 sudo apt-get install -y cuda-toolkit-12-9 -y
