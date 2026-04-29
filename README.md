@@ -12,21 +12,26 @@ cd Ubuntu-Nvidia-drivers
 3. ROOT modeInstall Nvidia-drivers ubuntu 2204, the installation will last about 10 minutes
 ```
 
-chmod +x /root/Ubuntu-nvidia-drivers/install-nvidia-drivers-2204.sh
-sudo -u root /root/Ubuntu-nvidia-drivers/install-nvidia-drivers-2204.sh
+chmod +x /root/c885-nvidia-drivers/install-nvidia-drivers-2204.sh
+sudo -u root /root/c885-nvidia-drivers/install-nvidia-drivers-2204.sh
 
+```
+Cuda-13.0
+```
+chmod +x /root/c885-nvidia-drivers/cuda-13.0.sh
+sudo -u root /root/c885-nvidia-drivers/cuda-13.0.sh
 ```
 3.1 Non ROOT
 ```
-git clone https://github.com/cpoc-internal/Ubuntu-nvidia-drivers.git
-cd Ubuntu-nvidia-drivers
+git clone https://github.com/cpoc-internal/c885-nvidia-drivers.git
+cd c885-nvidia-drivers
 chmod +x install-nvidia-drivers-2204.sh
  ./install-nvidia-drivers-2204.sh
 ```
 4. Install Nvidia-drivers ubuntu 2404, the installation will last about 10 minutes
 ```
-git clone https://github.com/cpoc-internal/Ubuntu-nvidia-drivers.git
-cd Ubuntu-nvidia-drivers
+git clone https://github.com/cpoc-internal/c885-nvidia-drivers.git
+cd c885-nvidia-drivers
  chmod +x install-nvidia-drivers-2404.sh
  ./install-nvidia-drivers-2404.sh
 ```
@@ -47,7 +52,7 @@ cd Ubuntu-nvidia-drivers
 
 6. Create new netplan config for UCS C885 H100 server persistent config 
 ```
- cd Ubuntu-nvidia-drivers
+ cd c885-nvidia-drivers
  chmod +x netplan-config-H100.sh
  ./netplan-config-H100.sh
 ```
@@ -55,14 +60,14 @@ cd Ubuntu-nvidia-drivers
 
 Server 1
 ```
- cd Ubuntu-nvidia-drivers
+ cd c885-nvidia-drivers
  chmod +x netplan-config-1.sh
  ./netplan-config-1.sh
 ```
 
 Server 2
 ```
- cd Ubuntu-nvidia-drivers
+ cd c885-nvidia-drivers
  chmod +x netplan-config-2.sh
  ./netplan-config-2.sh
 ```
