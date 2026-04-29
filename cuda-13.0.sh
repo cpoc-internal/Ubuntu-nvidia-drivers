@@ -1,3 +1,4 @@
+#!/bin/bash
 
 echo "Setting up the Script Variables..."
 set -o nounset
