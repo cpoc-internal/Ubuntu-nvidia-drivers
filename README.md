@@ -3,7 +3,7 @@ CUDA drivers installation, this repository will help to install CUDA Drivers, CU
 
 1.Clone the repository in your Ubuntu server
 ```
-git clone https://github.com/cpoc-internal/Ubuntu-Nvidia-drivers.git
+git clone https://github.com/cpoc-internal/c885-nvidia-drivers.git
 ```
 2. Change directory to the new folder
 ```
