@@ -51,8 +51,8 @@ sudo systemctl status nvidia-dcgm
 
 docker run -d --gpus all \
   --name dcgm-exporter \
-  --hostname ai-server- \
-  -e DCGM_EXPORTER_REMOTE_HOSTNAME=ai-server- \
+  --hostname $HOSTNAME \
+  -e DCGM_EXPORTER_REMOTE_HOSTNAME=$HOSTNAME \
   -p 9400:9400 \
   nvcr.io/nvidia/k8s/dcgm-exporter:latest
 
