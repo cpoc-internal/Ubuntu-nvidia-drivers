@@ -11,10 +11,8 @@ cd Ubuntu-Nvidia-drivers
 ```
 3. ROOT modeInstall Nvidia-drivers ubuntu 2204, the installation will last about 10 minutes
 ```
-
 chmod +x /root/c885-nvidia-drivers/install-nvidia-drivers-2204.sh
 sudo -u root /root/c885-nvidia-drivers/install-nvidia-drivers-2204.sh
-
 ```
 Cuda-13.0
 ```
