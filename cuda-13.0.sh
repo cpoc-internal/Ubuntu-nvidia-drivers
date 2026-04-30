@@ -56,10 +56,13 @@ docker run -d --gpus all \
   -p 9400:9400 \
   nvcr.io/nvidia/k8s/dcgm-exporter:latest
 
+sudo apt install python3-pip -y
+sudo pip install nvidia-cudnn-frontend
+
 sudo apt install lldpd -y
 sudo systemctl start lldpd
 sudo systemctl enable lldpd
-sudo systemctl status lldpd
+#sudo systemctl status lldpd
 
 
 sudo systemctl status nvidia-fabricmanager
