@@ -111,6 +111,20 @@ network:
             routes:
                 - to: 10.10.0.0/24
                   via: 10.10.0.1
+        ens214f0np0:
+            mtu: 9216
+            addresses:
+            - 10.10.0.12/24
+            routes:
+                - to: 10.10.0.0/24
+                  via: 10.10.0.1
+        ens214f1np1:
+            mtu: 9216
+            addresses:
+            - 10.10.0.13/24
+            routes:
+                - to: 10.10.0.0/24
+                  via: 10.10.0.1
 
 EOF
 
