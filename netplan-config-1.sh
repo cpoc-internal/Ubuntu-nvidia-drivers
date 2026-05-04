@@ -11,7 +11,7 @@ network:
     version: 2
     ethernets:
         ens201np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
             - 192.168.200.11/24
             nameservers:
@@ -22,7 +22,7 @@ network:
                   via: 192.168.200.1
 
         ens202np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
             - 192.168.200.12/24
             nameservers:
@@ -33,7 +33,7 @@ network:
                   via: 192.168.200.1
 
         ens203np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
             - 192.168.200.13/24
             nameservers:
@@ -44,7 +44,7 @@ network:
                   via: 192.168.200.1
 
         ens204np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
             - 192.168.200.14/24
             nameservers:
@@ -55,7 +55,7 @@ network:
                   via: 192.168.200.1
 
         ens205np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
             - 192.168.200.15/24
             nameservers:
@@ -66,7 +66,7 @@ network:
                   via: 192.168.200.1
         
         ens206np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
             - 192.168.200.16/24
             nameservers:
@@ -77,7 +77,7 @@ network:
                   via: 192.168.200.1
 
         ens207np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
             - 192.168.200.17/24
             nameservers:
@@ -88,7 +88,7 @@ network:
                   via: 192.168.200.1
 
         ens208np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
             - 192.168.200.18/24
             nameservers:
@@ -98,19 +98,19 @@ network:
                 - to: 192.168.200.0/24
                   via: 192.168.200.1
         ens211f0np0:
-            mtu: 9000
+            mtu: 9216
             addresses:
-            - 10.195.0.10/24
+            - 10.10.0.10/24
             routes:
-                - to: 10.195.0.0/24
-                  via: 10.195.0.1
+                - to: 10.10.0.0/24
+                  via: 10.10.0.1
         ens211f1np1:
-            mtu: 9000
+            mtu: 9216
             addresses:
-            - 10.195.0.11/24
+            - 10.10.0.11/24
             routes:
-                - to: 10.195.0.0/24
-                  via: 10.195.0.1
+                - to: 10.10.0.0/24
+                  via: 10.10.0.1
 
 EOF
 
