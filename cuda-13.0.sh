@@ -32,7 +32,7 @@ sudo nvidia-smi -pm 1
 sudo modprobe nvidia-uvm
 sudo modprobe nvidia-modeset
 sudo apt-get install -y cuda-toolkit-13-0 -y
-sudo nvidia-smi
+nvidia-smi
 sudo apt install nvidia-cuda-toolkit -y
 export CUDA_HOME=/usr/local/cuda-13.0
 export PATH=$CUDA_HOME/bin:$PATH
