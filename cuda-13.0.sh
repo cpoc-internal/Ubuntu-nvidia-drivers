@@ -26,6 +26,7 @@ sudo apt update
 sudo apt install nvidia-driver-580-server -y
 sudo apt-get update
 sudo apt-get install -y nvidia-fabricmanager-580=580.126.09-0ubuntu0.22.04.1
+sudo apt-get install -y nvidia-fabricmanager-580
 sudo systemctl enable nvidia-fabricmanager
 sudo systemctl start nvidia-fabricmanager
 sudo nvidia-smi -pm 1
@@ -34,10 +35,7 @@ sudo modprobe nvidia-modeset
 sudo apt-get install -y cuda-toolkit-13-0 -y
 nvidia-smi
 sudo apt install nvidia-cuda-toolkit -y
-export CUDA_HOME=/usr/local/cuda-13.0
-export PATH=$CUDA_HOME/bin:$PATH
-export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
-nvcc --version
+
 
 sudo apt install docker.io -y
 sudo apt-get update
@@ -56,13 +54,18 @@ docker run -d --gpus all \
   -p 9400:9400 \
   nvcr.io/nvidia/k8s/dcgm-exporter:latest
 
-sudo apt install python3-pip -y
-sudo pip install nvidia-cudnn-frontend
-
 sudo apt install lldpd -y
 sudo systemctl start lldpd
 sudo systemctl enable lldpd
 #sudo systemctl status lldpd
+
+sudo apt install python3-pip -y
+sudo pip install nvidia-cudnn-frontend
+
+export CUDA_HOME=/usr/local/cuda-13.0
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+nvcc --version
 
 
 sudo systemctl status nvidia-fabricmanager
